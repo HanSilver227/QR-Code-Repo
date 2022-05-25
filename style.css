@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.whiteBox {
+  border: 1px;
+  border-radius: 15px;
+  width: 300px;
+  height: 440px;
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin: 100px auto;
+  padding-bottom: 15px;
+}
+
+img {
+  width: 260px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+.shoveIn {
+  padding: 15px 8px 50px 8px;
+}
+
+.bigDark {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.smalLit {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+  .attribution a:hover {
+    color: hsl(0, 87%, 51%);
+  }

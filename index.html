@@ -3,37 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
+    <meta name="author" content="Han Silver" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Improve your front-end skills by building projects Scan the QR code to visit
-    Frontend Mentor and take your coding skills to the next level
+    <main>
+      <section class="whiteBox">
+        <!-- I created this 'shoveIn' class to get the paddings right-->
+        <div class="shoveIn">
+          <img src="/images/image-qr-code.png" alt="Qr-code" />
+          <article style="padding-left: 15px; padding-right: 15px">
+            <div class="bigDark">
+              <p>Improve your front-end skills by building projects</p>
+            </div>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Han Silver</a>.
-    </div>
+            <div class="smalLit">
+              <p>
+                Scan the QR code to visit Frontend Mentor and take your coding
+                skills to the next level
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer style="padding-bottom: 15px">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/HanSilver227"
+          target="_blank"
+          >Han Silver</a
+        >.
+      </div>
+    </footer>
   </body>
 </html>
